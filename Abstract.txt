@@ -1,0 +1,25 @@
+Abstract
+	
+Divided the IRIS and 20NEWSGROUPS datasets into clusters using the K-Means algorithm.
+The precision, recall and overall F-measure for each cluster is calculated to measure cluster validity.
+The overall precision and recall for the clustering is calculated by taking the maximum of the same from each cluster in the clustering.
+
+
+Inputs taken by program:
+	
+1. Number of clusters to be generated.
+	
+2. Number of iterations to be run for the program.
+
+
+Output of the program:
+	
+1. The matrix which depicts the relations between points,clusters and classes.
+	
+2. The final centroid points as a vector.
+	
+3. Precision, recall and F-measure for each cluster and the overall clustering.
+
+
+
+Note : Since 20 Newsgroups is a huge dataset, we ran our code for 15 newsgroups and we have added that output in this folder.
